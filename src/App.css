@@ -24,6 +24,18 @@
   color: white;
 }
 
+
+@media only screen and (max-width: 800px) {
+  body{}
+    .columns{
+    margin-left: 50px;
+    }
+    .column2{
+      margin-left: 100px;
+    }
+}
+
+
 .App-link {
   color: #61dafb;
 }

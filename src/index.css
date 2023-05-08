@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* am pus o culoare de albastru si text alb */
+.header {
+  text-align: center;
+  color: white;
+  background-color: blue;
+}
+
+.footer {
+  text-align: center;
+  background-color: blue;
+  color:white;
+}
+
+
+@media only screen and (max-width: 800px) {
+  body{}
+    .columns{
+    margin-left: 50px;
+    }
+    .column2{
+      margin-left: 100px;
+    }
+}

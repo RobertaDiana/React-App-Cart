@@ -25,19 +25,47 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <style>
+      /* am pus o culoare de albastru si text alb */
+    h1 {
+      text-align: center;
+      color: white;
+      background-color: blue;
+    }
+
+    p {
+      text-align: center;
+      background-color: blue;
+      color:white;
+    }
+
+
+    @media only screen and (max-width: 800px) {
+      body{}
+        .columns{
+        margin-left: 50px;
+        }
+        .column2{
+          margin-left: 100px;
+        }
+    }
+    </style>
+
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  
+  <header>
+    <div class="header">
+    <h1>CUMPARATURI</h1></div>
+  </header>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <footer>
+    <div class="footer">
+    <p>&copy; Copyright 2023 Micu Diana Roberta</p></div>
+  </footer>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
